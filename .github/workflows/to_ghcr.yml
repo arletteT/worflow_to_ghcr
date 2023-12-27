@@ -19,5 +19,5 @@ jobs:
 
       - name: "Build Inventory Image"
         run: |
-          docker build . --tag ghcr.io/arletteT/hello-world:latest
-          docker push ghcr.io/arletteT/hello-world:latest
+          docker build . --tag ghcr.io/arlettet/hello-world:latest
+          docker push ghcr.io/arlettet/hello-world:latest
